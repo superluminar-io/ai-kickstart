@@ -91,11 +91,3 @@ The kit sizes delivery effort (person-days) and estimates the AWS run cost (AWS'
 ## Report generator
 
 The report is produced by superluminar's report generator, live at `https://a2hmr6fzsm.eu-central-1.awsapprunner.com/` (route `/new/kickstart`; access password is in the shared 1Password). It also runs locally on `:8000` for development. Fill the form from `04-report-outline.md`, which ends with the field spec the generator is built to.
-
-## Conventions
-
-- **European data realities are first-class:** GDPR, EU AI Act classification, data residency, **eu-central-1 (Frankfurt)**.
-- **AWS-native, managed by default:** Amazon Bedrock (+ Knowledge Bases, Guardrails), Amazon Textract, Step Functions, Lambda, S3, DynamoDB, CloudWatch, IAM; S3 Vectors vs OpenSearch Serverless for retrieval.
-- **Capability transfer:** we embed, build alongside the client's team, and hand over.
-- **British/European spelling** throughout (prioritised, organisational).
-- Cross-references are **relative filenames within this folder**. The kit is self-contained and git-ready.
